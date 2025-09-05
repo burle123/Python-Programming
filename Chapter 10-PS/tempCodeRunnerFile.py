@@ -1,0 +1,1 @@
+ print(f"Total balance = {self.getbalance()}")
