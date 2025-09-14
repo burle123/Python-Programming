@@ -1,6 +1,6 @@
 music = {
     "kakan": "https://youtu.be/9HNx1NIwdAc",
-    "Phullwanti": "https://youtu.be/BzbdQE9iU18",
+    "phulwanti": "https://youtu.be/BzbdQE9iU18",
     "Baaygo": "https://youtu.be/3E3tiAd0Ksk",
     "Dolby": "https://youtu.be/Z6U3tVjHcUI",
     "stealth": "https://www.youtube.com/watch?v=U47Tr9BB_wE",
