@@ -13,6 +13,9 @@ import os
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
+voices = engine.getProperty('voices')
+engine.setProperty('voice', voices[0].id) 
+
 
 
 newsapi = "f2f0dacb4394457baa887333cef79f71"
