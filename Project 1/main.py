@@ -4,6 +4,10 @@ import random
 -1 for water 
 0 for gun
 '''
+
+print("Welcome to Snake, Water and Gun game")
+print("s for snake, w for water and g for gun")
+
 computer = random.choice([-1, 0, 1])
 youstr = input("Enter your choice: ")
 youDict = {"s": 1, "w": -1, "g": 0}
