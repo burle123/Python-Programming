@@ -1,5 +1,5 @@
-a=123
+a=1234
 b=123
 print("A") if a>b else print("=") if a==b else print("B")
 
-print("A") if a>b else print("B") if a<b else print("=")
+print("A") if a<b else print("B") if a<b else print("=")
