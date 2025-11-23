@@ -70,8 +70,8 @@ else:
   nwords = []
   for word in words:
     if(len(word)>=5): 
-      stnew = word[3:-3]
-      stnew = stnew[-1] + stnew[:-1]
+      stnew = word[3:-3] # remove 3 from start and 3 from end
+      stnew = stnew[-1] + stnew[:-1] # move last letter to front
       nwords.append(stnew)
     else:
       nwords.append(word[::-1])

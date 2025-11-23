@@ -3,9 +3,9 @@ Write a Library class with no_of_books and books as two instance variables. Writ
 '''
 
 class Library:
-    def __init__(self):
-        self.books = []
-        self.no_of_books = 0
+    def __init__(self): 
+        self.books = [] 
+        self.no_of_books = 0 
 
     def add_book(self, book_name):
         self.books.append(book_name)
