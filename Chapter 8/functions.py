@@ -22,11 +22,26 @@
 #     print("Addition = ",c)  
 # Addition()
 
-def login():
-    username=input("Enter your username : ")
-    password=input("Enter your password : ")
+# def login():
+#     username=input("Enter your username : ")
+#     password=input("Enter your password : ")
+#     if username=="admin" and password=="1234":
+#         print("Login Successful!!!")
+#     else:
+#         print("Login Failed")
+# login()
+
+def login(username, password):
     if username=="admin" and password=="1234":
+        return True
+    else:
+        return False
+
+def main():
+    user=input("Enter your username : ")
+    pwd=input("Enter your password : ")
+    if login(user, pwd):
         print("Login Successful!!!")
     else:
         print("Login Failed")
-login()
+main()      
