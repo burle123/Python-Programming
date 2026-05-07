@@ -1,5 +1,9 @@
-def add(a,b):
-    c=a+b
-    print(c)
+def pure_chai(cups):
+#     return cups * 10
+# total_chai = 0
 
-add(4,6)    
+
+# #Not recommended
+# def impure_chai(cups):
+#     global total_chai
+#     total_chai += cups
